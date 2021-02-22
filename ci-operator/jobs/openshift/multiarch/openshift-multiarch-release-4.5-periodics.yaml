@@ -1,7 +1,7 @@
 periodics:
 - agent: kubernetes
   cluster: api.ci
-  cron: 0 10,22 * * *
+  cron: 0 8,22 * * *
   decorate: true
   labels:
     dptp.openshift.io/ssh-bastion: "true"
